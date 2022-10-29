@@ -1,0 +1,8 @@
+matrix:
+- name: .md file spellcheck
+  aspell:
+    lang: en
+    d: en_US
+  glob_flags: N
+  sources:
+  - '*.md'
